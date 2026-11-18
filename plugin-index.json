@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Community Plugins",
+    "zh": "DSH 社群插件"
+  },
+  "description": {
+    "en": "A small hand-curated index of third-party DeepSeek Harness plugins.",
+    "zh": "手動整理的第三方 DeepSeek Harness 插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "ai": {
+        "title": {
+          "en": "AI",
+          "zh": "AI 能力"
+        }
+      },
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "zh": "工具"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@wenaixi/dsh-ponytail",
+      "title": {
+        "en": "Ponytail (lazy senior dev)",
+        "zh": "Ponytail 懶惰資深工程師"
+      },
+      "description": {
+        "en": "Lazy senior dev mode: the smallest change that fully solves the task.",
+        "zh": "懶惰資深工程師模式：用最少改動完整解決問題，回覆結尾附上跳過咗咩同風險。"
+      },
+      "author": "Dietrich Gebert",
+      "homepage": "https://github.com/Wenaixi/dsh-ponytail",
+      "metadata": {
+        "category": "ai",
+        "keywords": [
+          "dsh",
+          "plugin"
+        ]
+      },
+      "versions": [
+        {
+          "version": "5.6.4",
+          "publishTimestamp": 1794730885,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-image-tools",
+      "title": {
+        "en": "Image Tools",
+        "zh": "圖片工具"
+      },
+      "description": {
+        "en": "Show inline images, image choice cards, and save received images into the workspace.",
+        "zh": "回覆內嵌圖片、圖片選擇卡、把收到的圖片存成工作區檔案。"
+      },
+      "homepage": "https://github.com/Pasumao/dsh-plugin-image-tools",
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "dsh",
+          "plugin"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.7.3",
+          "publishTimestamp": 1794372626,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-tool-describe-image",
+      "title": {
+        "en": "Describe Image",
+        "zh": "圖像理解"
+      },
+      "description": {
+        "en": "Image understanding through any OpenAI-compatible vision API.",
+        "zh": "用任何 OpenAI 相容視覺 API 理解圖片。"
+      },
+      "metadata": {
+        "category": "ai",
+        "keywords": [
+          "dsh",
+          "plugin"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1787473021,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-vision-web",
+      "title": {
+        "en": "Vision (web)",
+        "zh": "視覺（網頁）"
+      },
+      "description": {
+        "en": "Eyes for text-only DeepSeek: vision via Doubao web, Gemini API, or a proxy.",
+        "zh": "為純文字模型加上視覺能力：透過網頁、Gemini API 或代理。"
+      },
+      "homepage": "https://github.com/54xkeee/dsh-vision",
+      "metadata": {
+        "category": "ai",
+        "keywords": [
+          "dsh",
+          "plugin"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1786861315,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-youreyes",
+      "title": {
+        "en": "Your Eyes",
+        "zh": "你的眼睛"
+      },
+      "description": {
+        "en": "Image understanding via Antigravity quota, OpenAI-compatible VLM, Gemini API, or local Ollama.",
+        "zh": "用 Antigravity 額度、OpenAI 相容 VLM、Gemini API 或本機 Ollama 理解圖片。"
+      },
+      "homepage": "https://github.com/54xkeee/dsh-youreyes",
+      "metadata": {
+        "category": "ai",
+        "keywords": [
+          "dsh",
+          "plugin"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1786816125,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@dsh-mobile/mobile-remote",
+      "title": {
+        "en": "DSH Mobile",
+        "zh": "DSH 手機遙控"
+      },
+      "description": {
+        "en": "Turn DSH into a handheld console: send work from your phone, watch progress, approve decisions.",
+        "zh": "把 DSH 變成隨身控制台：手機派活、看進度、收通知、審批決策。"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "dsh",
+          "plugin"
+        ]
+      },
+      "versions": [
+        {
+          "version": "3.2.7",
+          "publishTimestamp": 1794923633,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}
